@@ -1,0 +1,23 @@
+# Container images
+images/
+*.tar
+*.tar.gz
+
+# Backups and exports
+backup*/
+**/backup*/
+*.bak
+
+# Kubernetes secrets and credentials
+kubeconfig
+*.kubeconfig
+*.key
+*.pem
+*.p12
+*.pfx
+*release-secret*.yaml
+*release-secrets*.yaml
+*secrets-backup*.yaml
+
+# Generated local reports
+*.log
